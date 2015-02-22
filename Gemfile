@@ -29,13 +29,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
-gem 'neat'
-gem 'bourbon'
-gem 'refills'
+gem 'bootstrap-sass', '~> 3.3.3'
 gem 'slim'
 gem 'slim-rails'
-gem 'normalize-rails'
 gem 'high_voltage'
 gem 'd3-rails'
 
