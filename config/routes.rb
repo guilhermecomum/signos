@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   # root 'welcome#index'
   root to: 'high_voltage/pages#show', id: 'home'
 
+  get '/about'                => 'high_voltage/pages#show', id: 'about'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
