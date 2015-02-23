@@ -15,8 +15,11 @@
 /log/*
 !/log/.keep
 /tmp
+
+*~
 config/database.yml
 .DS_Store
 db/schema.rb
 public/uploads
+public/assets
 *.dump
